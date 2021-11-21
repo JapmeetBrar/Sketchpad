@@ -1,8 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: rgba(73, 128, 184, 0.432);
+}
+
 .container{
     width: 960px;
     height: 960px;
     background-color: plum;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
 }
 .sketch{
+    padding: 0;
+    margin: 0;
+}
 
+button{
+    flex-grow: 0;
+    height: 50px;
+    width: 960px;
+    margin-bottom: 20px;
+    border-radius: 6px;
 }
